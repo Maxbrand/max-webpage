@@ -1,0 +1,68 @@
+body{
+	font-family: 'Permanent Marker', cursive;
+	background-color: #262626
+
+;
+}
+
+h1{
+	color:#ff9966;
+	font-size: 4em;
+	margin: 40px auto 0;
+	text-align: center;
+}
+
+h3{
+	color: #ffcc66;
+	margin: 0 auto 0;
+	font-size: 2em;
+	text-align: center;
+}
+
+video{
+	width:100%; 
+   	height:auto; 
+	}
+
+.body{
+	display:flex;
+	flex-direction: column;
+	max-width: 95vw;
+}
+
+.intro{
+	display:flex;
+	flex-direction: column;
+	margin: 5vh auto 0 ;
+}
+
+.reel{
+	display:flex;
+	flex-direction: column;
+	margin: 5vh auto 0;
+	width: 500px;
+	max-width: 95vw;
+}
+
+.information{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 3vh auto 0;
+}
+
+.deet{
+	font-size: 1.5em;
+/*	flex: auto;
+*/	margin: 0 auto 0 ;
+	text-decoration:none !important; 
+	text-decoration:none;
+	text-align: center;
+	color: #ffcc66;
+}
+
+a:hover{
+	color:#ff9966;
+}
+/*font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Coiny', cursive;*/
