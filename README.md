@@ -1,3 +1,3 @@
 # max-webpage
 
-A simple web page project for promoting a very talented cinematographer.
+A simple web page project for promoting a somewhat talented cinematographer.
