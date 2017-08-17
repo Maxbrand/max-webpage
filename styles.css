@@ -1,66 +1,72 @@
 body{
 	font-family: 'Permanent Marker', cursive;
-	background-color: #262626
-
-;
+	background-color: #262626;
+	width:100%;
 }
 
 h1{
 	color:#ff9966;
 	font-size: 4em;
-	margin: 40px auto 0;
+	margin: 3% auto 0%;
 	text-align: center;
 }
 
 h3{
 	color: #ffcc66;
-	margin: 0 auto 0;
+	margin: 0% auto 0%;
 	font-size: 2em;
 	text-align: center;
 }
 
 video{
 	width:100%; 
-   	height:auto; 
+   	height:auto;
 	}
 
-.body{
+.content{
+	display:-webkit-flex;
 	display:flex;
 	flex-direction: column;
-	max-width: 95vw;
+	-webkit-justify-content: center; /* Safari */
+  	justify-content:         center;
+  	width: 100%;
 }
 
-.intro{
-	display:flex;
-	flex-direction: column;
-	margin: 5vh auto 0 ;
+.name{
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+.title{
+	flex-grow: 0;
+	flex-shrink: 5;
 }
 
 .reel{
-	display:flex;
-	flex-direction: column;
-	margin: 5vh auto 0;
-	width: 500px;
-	max-width: 95vw;
+  	width: 55%;
+  	min-width: 85vw;
+  	align-self: center; 
 }
 
 .information{
+	display:-webkit-flex;
 	display:flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin: 3vh auto 0;
+	flex-direction: row;
+	-webkit-justify-content: space-around; /* Safari */
+  	justify-content:         space-around;
+}
+
+.info{
+	align-self: center;
 }
 
 .deet{
-	font-size: 1.5em;
-/*	flex: auto;
-*/	margin: 0 auto 0 ;
+	font-size: 3vw;
 	text-decoration:none !important; 
 	text-decoration:none;
-	text-align: center;
-	color: #ffcc66;
+	color: #ffcc66;	
 }
 
 a:hover{
 	color:#ff9966;
-}
+}q

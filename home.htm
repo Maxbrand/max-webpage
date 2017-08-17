@@ -2,32 +2,43 @@
 
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=2.0">
-		<meta charset="utf-8"> <meta lang="en"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8"> 
+		<meta lang="en"> 
 		<meta name="author" content="Moa Nyman">
 		<meta name="copyright" content="Moa Nyman">
-		<meta name="keywords" content="cinematographer, filmfoto, fotograf, fotografi, filmfotograf, photographer">
+		<meta name="keywords" content="cinematographer, filmfoto, fotograf, fotografi, filmfotograf, photographer, film">
 		<title>Max Brandhorst</title>
 		<link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	</head>
 
 	<body class="body">
-		<div class="intro">
-			<h1> Max Brandhorst </h1>
-			<h3> Cinematographer </h3>
+		<div class="content">
+			<div class="name">
+				<h1> Max Brandhorst </h1>
+			</div>
+			<div class="title">				
+				<h3> Cinematographer </h3>
+			</div>
+			<div class="reel">
+				<video preload="auto" controls controlsList="nodownload">
+				<!--poster-->
+			  		<source src="reel.mp4" type="video/mp4" media="screen and (min-device-width:801px)"/>
+			  		<source src="reel-small.mp4" type="video/mp4" media="screen and (max-device-width:800px)"/>
+			  		Your browser does not support the video tag.
+			  	</video>
+		  	</div>
+		  	<div class="info">
+				<a class="deet" href="mailto:max.brandhorst@gmail.com">max.brandhorst@gmail.com</a>
+			</div>
+			<div class="info">
+				<a class="deet" href="tel:+46706081728">+46 70 608 17 28</a>
+			</div>
 		</div>
-		<div class="reel">
-			<video class="video" preload="auto" controls controlsList="nodownload">
-			<!--poster-->
-		  		<source src="reel.mp4" type="video/mp4" media="screen and (min-device-width:801px)"/>
-		  		<source src="reel-small.mp4" type="video/mp4" media="screen and (max-device-width:800px)"/>
-		  		Your browser does not support the video tag.
-		  	</video>
-	  	</div>
-	  	<div class="information">
+<!-- 		<div class="information">
 			<a class="deet" href="mailto:max.brandhorst@gmail.com">max.brandhorst@gmail.com</a>
 			<a class="deet" href="tel:+46706081728">+4670 608 17 28</a>
-		</div>
+		</div> -->
 	</body>
 </html>
