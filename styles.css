@@ -2,6 +2,7 @@ body{
 	font-family: 'Permanent Marker', cursive;
 	background-color: #262626;
 	width:100%;
+	height:100%;
 }
 
 h1{
@@ -9,6 +10,7 @@ h1{
 	font-size: 4em;
 	margin: 3% auto 0%;
 	text-align: center;
+	overflow: visible;
 }
 
 h3{
@@ -35,6 +37,7 @@ video{
 .name{
 	flex-grow: 1;
 	flex-shrink: 0;
+	overflow: visible;
 }
 
 .title{
@@ -44,7 +47,7 @@ video{
 
 .reel{
   	width: 55%;
-  	min-width: 85vw;
+  	min-width: 90vw;
   	align-self: center; 
 }
 
@@ -58,13 +61,17 @@ video{
 
 .info{
 	align-self: center;
+	min-width:15%;
 }
 
 .deet{
-	font-size: 3vw;
+	font-size: 0.95em;
+	text-align: center;
 	text-decoration:none !important; 
 	text-decoration:none;
 	color: #ffcc66;	
+	width: auto;
+	min-width: 20%;
 }
 
 a:hover{
