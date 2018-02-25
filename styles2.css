@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	font-family: 'Permanent Marker', cursive;
+	width: 100%;
+	height: 100%;
+
+	display:flex;
+	flex-direction: column;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	box-sizing: border-box;
+	background: transparent;
+	padding: 2em 6em;
+	width: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size-adjust: 1em;
+}
+
+a:hover {
+	color: pink;
+}
+
+.directory, .social_icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.directory {
+	width: 75%;
+	flex-basis: 75%;
+	flex-grow: 9;
+	align-self: center;
+}
+
+.social_icons {
+	width: 25%;
+	flex-basis: 25%;
+	flex-grow: 1;
+
+	justify-content: flex-end;
+}
+
+.nav_item {
+	margin: 0.83em;
+	padding: 0.83em;
+}
+
+.nav_title_large, .nav_title_small {
+	padding: 0 0.83em;
+	margin: 0 0.83em;
+}
+
+.nav_title_small {
+	display: none;
+}
+
+.nav_icon {
+	padding: 0.83em 0.4em;
+	margin: 0.83em;
+}
+
+@media (max-width: 832px) {
+	.nav_title_large {
+		display: none;
+	}
+	.nav_title_small {
+		display: inline;
+	}
+
+}
