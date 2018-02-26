@@ -277,6 +277,7 @@ a:hover, #hamburger:hover{
 	.nav_title {
 		width:100%;
 		margin-bottom: 0.5em;
+		font-size: 1em;
 	}
 
 	.nav_title h1 {
