@@ -216,6 +216,7 @@ a:hover, #hamburger:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex-shrink: 0;
 }
 
 .experience {
@@ -225,6 +226,7 @@ a:hover, #hamburger:hover{
 	margin-top: 15vh;
 	margin-bottom: 20vh;
 	border-bottom: solid 1px white;
+	flex-shrink: 0;
 }
 
 /* projects */
@@ -254,6 +256,7 @@ a:hover, #hamburger:hover{
 @media (max-width: 772px) {
 	nav {
 		flex-direction: column;
+		padding-top: 1em;
 	}
 
 	#navbar_content {
@@ -297,6 +300,10 @@ a:hover, #hamburger:hover{
 		background-color: rgb(0,0,0);
 		background-color: rgba(0,0,0,0.9);
 	}
+
+	.experience {
+		border-bottom: transparent;
+	}
 }
 
 @media (max-width: 449px) {
@@ -306,10 +313,6 @@ a:hover, #hamburger:hover{
 
 	.about img {
 		max-width: 100%;
-	}
-
-	.experience {
-		border-bottom: transparent;
 	}
 }
 
