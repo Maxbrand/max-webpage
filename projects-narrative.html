@@ -22,7 +22,7 @@
 	<body class="body">
 		<nav class="navbar">
 			<div class="nav_title" id="fade_in_title">
-				<a href="#"><h1>Max Brandhorst</h1></a>
+				<a href="file:///Users/botronic/Documents/Development/max-webpage/index.html"><h1>Max Brandhorst</h1></a>
 				<button id="hamburger"><i class="fas fa-bars"></i></button>
 			</div>
 			<div id="navbar_content">
@@ -30,7 +30,7 @@
 					<div class="nav_projects nav_item">
 						<span>projects</span>
 						<div id="nav_projects_dropdown">
-							<div><a href="file:///Users/botronic/Documents/Development/max-webpage/projects-narrative.html">narrative</a></div>
+							<div><a href="#">narrative</a></div>
 							<div><a href="file:///Users/botronic/Documents/Development/max-webpage/projects-corporate.html">corporate</a></div>
 						</div>
 					</div>
@@ -44,14 +44,11 @@
 			</div>
 		</nav>
 		<main>
-			<div class="background_video" width=100%>
-				<video id="video_reel" autoplay="true" loop muted="true" width="100%">
-					<source src="file:///Users/botronic/Documents/Development/max-webpage/media/reel.mp4" type="video/mp4">
-				</video>
-				<div class="video_overlay">
-					<button class="overlay_button">narrative <i class="fas fa-film"></i></button>
-					<button class="overlay_button">corporate <i class="fas fa-film"></i></button>
-				</div>
+			<div class="project_grid">
+				<iframe src="https://player.vimeo.com/video/253673229" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/253673046" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/253673144" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/253673071" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</main>
 	</body>
@@ -63,7 +60,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 	<!-- local -->
-	<script src="home.js"></script>
+	<script src="js/about.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			let navbar = document.getElementById("navbar_content")
