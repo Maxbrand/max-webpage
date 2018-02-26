@@ -245,6 +245,12 @@ a:hover, #hamburger:hover{
 	/*margin: 1em;*/
 }
 
+@media(max-width: 1007px) {
+	nav {
+		padding: 4em 3em 0em;
+	}
+}
+
 
 @media (max-width: 772px) {
 	nav {
