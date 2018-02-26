@@ -3,9 +3,7 @@ $(window).on("load", function() {
 	let navbar = $("#navbar_content")
 	let buttons = $(".video_overlay")
 
-	buttons.hide()
-
-	button.hide().fadeIn()
+	buttons.hide().fadeIn(600)
 
 	$(window).resize(function() {
 		if($(window).width() >= 772) {

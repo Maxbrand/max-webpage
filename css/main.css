@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	background-color: #242426;
 	width: 100%;
 	height: 100%;
 
@@ -21,7 +21,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
 
 	position: absolute;
 	top: 0;
@@ -55,6 +55,7 @@ a:hover, #hamburger:hover{
 	flex-grow: 0.1;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 1.4em;
 }
 
 #navbar_content {
@@ -103,14 +104,14 @@ a:hover, #hamburger:hover{
 #nav_projects_dropdown {
     height: 0;
     position: absolute;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);*/
     overflow: auto;
     opacity: 0;
 	z-index: 1;
     transition: opacity 0.1s ease;
     padding: 0 0.5em;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 #nav_projects_dropdown div:first-child {
@@ -120,6 +121,10 @@ a:hover, #hamburger:hover{
 #nav_projects_dropdown div:last-child {
 	padding: 1em 0;
 }
+
+#nav_projects_dropdown div {
+/*	border-left: solid 1px white;
+*/}
 
 .nav_projects:hover #nav_projects_dropdown, .nav_projects:hover a {
     opacity: 1;
@@ -131,6 +136,7 @@ a:hover, #hamburger:hover{
 	color: pink;
 	cursor: default;
 	transition: 0.3s;
+	text-decoration: underline;
 }
 
 .nav_icon {
@@ -143,6 +149,7 @@ a:hover, #hamburger:hover{
 	color: white;
 	border: none;
 	background: transparent;
+	outline: none;
 }
 
 /* home */
@@ -213,8 +220,11 @@ a:hover, #hamburger:hover{
 
 .experience {
 	display: none;
-	height: 100vh;
+	height: 65vh;
 	text-align: left;
+	margin-top: 15vh;
+	margin-bottom: 20vh;
+	border-bottom: solid 1px white;
 }
 
 /* projects */
@@ -266,6 +276,11 @@ a:hover, #hamburger:hover{
 
 	.nav_title {
 		width:100%;
+		margin-bottom: 0.5em;
+	}
+
+	.nav_title h1 {
+		font-size: 2em;
 	}
 
 	.nav_item, .social_icons {
