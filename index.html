@@ -19,20 +19,39 @@
 
 	<body class="body">
 		<nav class="navbar">
-			<div class="directory">
-				<div class="nav_title_large"><a href="https://instagram.com/maxbrandop"><h1>Max Brandhorst</h1></a></div>
-				<div class="nav_title_small"><a href="https://instagram.com/maxbrandop"><h1>MB</h1></a></div>
-				<div class="nav_projects nav_item"><a href="https://instagram.com/maxbrandop">Projects</a></div>
-				<div class="nav_about nav_item"><a href="https://instagram.com/maxbrandop">About</a></div>
+			<div class="nav_title">
+				<a href="#"><h1>Max Brandhorst</h1></a>
+				<button id="hamburger"><i class="fas fa-bars"></i></button>
 			</div>
-			<div class="social_icons">
-				<div class="nav_icon"><a href="https://instagram.com/maxbrandop"><i class="fab fa-instagram"></i></a></div>
-				<div class="nav_icon"><a href="mailto:max.brandhort@gmail.com"><i class="far fa-envelope"></i></a></div>
-				<div class="nav_icon"><a href="tel:+46706081728"><i class="fas fa-phone"></i></a></div>
+			<div id="navbar_content">
+				<div class="directory">
+					<div class="nav_projects nav_item">
+						<span>Projects</span>
+						<div id="nav_projects_dropdown">
+							<div><a href="file:///Users/botronic/Documents/Development/max-webpage/projects.html">Narrative</a></div>
+							<div><a href="file:///Users/botronic/Documents/Development/max-webpage/projects.html">Corporate</a></div>
+						</div>
+					</div>
+					<div class="nav_about nav_item"><a href="file:///Users/botronic/Documents/Development/max-webpage/about.html">About</a></div>
+				</div>
+				<div class="social_icons">
+					<div class="nav_icon"><a href="https://instagram.com/maxbrandop"><i class="fab fa-instagram"></i></a></div>
+					<div class="nav_icon"><a href="mailto:max.brandhort@gmail.com"><i class="far fa-envelope"></i></a></div>
+					<div class="nav_icon"><a href="tel:+46706081728"><i class="fas fa-phone"></i></a></div>
+				</div>
 			</div>
 		</nav>
 	</body>
 
 	<!-- scripts-->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript">
+		let navbar = document.getElementById("navbar_content")
+		document.getElementById("hamburger").onclick = function() {
+			if (navbar.style.display == "none")
+				navbar.style.display = "flex"
+			else navbar.style.display = "none"
+		}
+
+	</script>
 </html>

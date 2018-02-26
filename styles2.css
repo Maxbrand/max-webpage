@@ -2,18 +2,25 @@ html, body {
 	margin: 0;
 	padding: 0;
 	background-color: grey;
-	font-family: 'Permanent Marker', cursive;
 	width: 100%;
 	height: 100%;
 
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: white;
+}
+
+body {
 	display:flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 
 	position: absolute;
 	top: 0;
@@ -21,67 +28,142 @@ nav {
 
 	box-sizing: border-box;
 	background: transparent;
-	padding: 2em 6em;
+	padding: 4em 6em 0em;
 	width: 100%;
 }
 
 a {
 	color: white;
 	text-decoration: none;
-	transition: 0.3s;
-	font-size-adjust: 1em;
 }
 
-a:hover {
+a:hover, #hamburger:hover{
+	transition: 0.3s;
 	color: pink;
 }
 
-.directory, .social_icons {
+.nav_title {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	flex-grow: 0.1;
 }
 
-.directory {
-	width: 75%;
-	flex-basis: 75%;
-	flex-grow: 9;
+#navbar_content {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+.directory {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	align-self: center;
 }
 
-.social_icons {
-	width: 25%;
-	flex-basis: 25%;
-	flex-grow: 1;
-
+.social_icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	justify-content: flex-end;
 }
 
 .nav_item {
-	margin: 0.83em;
-	padding: 0.83em;
+	padding: 0 1.66em;
 }
 
-.nav_title_large, .nav_title_small {
-	padding: 0 0.83em;
-	margin: 0 0.83em;
+.nav_title > a > h1 {
+	padding: 0;
+	margin: 0;
 }
 
-.nav_title_small {
-	display: none;
+.nav_title {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav_projects {
+	position: relative;
+	display: inline-block;
+}
+
+#nav_projects_dropdown {
+    display: none;
+    position: absolute;
+    background: darkgrey;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav_projects_dropdown div:first-child {
+	padding: 1em 0.5em 0em;
+}
+
+#nav_projects_dropdown div:last-child {
+	padding: 1em 0.5em;
+}
+
+.nav_projects:hover #nav_projects_dropdown, .nav_projects:hover a {
+    display: block;
+    transition: 1s;
+}
+
+
+.nav_projects:hover {
+	color: pink;
+	transition: 0.3s;
 }
 
 .nav_icon {
-	padding: 0.83em 0.4em;
-	margin: 0.83em;
+	padding: 0 0.8em;
 }
 
-@media (max-width: 832px) {
-	.nav_title_large {
-		display: none;
+#hamburger {
+	display: none;
+	font-size: 1.5em;
+	color: white;
+	border: none;
+	background: transparent;
+}
+
+@media (max-width: 772px) {
+	nav {
+		flex-direction: column;
 	}
-	.nav_title_small {
-		display: inline;
+
+	#navbar_content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#hamburger {
+		display: inline-block;
+	}
+
+	.directory {
+		flex-direction: column;
+	}
+
+	.nav_title {
+		width:100%;
+	}
+
+	.nav_item, .social_icons {
+		padding: 0.5em 0;
+	}
+}
+
+@media (max-width: 435px) {
+	nav {
+		padding: 4em 3em 0em;
 	}
 
 }
+
