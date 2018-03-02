@@ -179,7 +179,7 @@ a:hover, #hamburger:hover{
 	font-size: 1em;
 	color: white;
 	background-color: rgb(0,0,0);
-	background-color: rgba(26, 148, 234, 0.4);
+	background-color: rgba(26, 148, 234, 0.3);
 	border: transparent;
 	border-radius: 5px;
 	transition: 0.3s;
