@@ -171,7 +171,6 @@ a:hover, #hamburger:hover{
 	justify-content: space-between;
 	z-index: 1;
 	position: absolute;
-	bottom: 7%;
 	left: auto;
 }
 
@@ -180,7 +179,7 @@ a:hover, #hamburger:hover{
 	font-size: 1em;
 	color: white;
 	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(36, 86, 148, 0.596);
 	border: transparent;
 	border-radius: 5px;
 	transition: 0.3s;
@@ -193,6 +192,7 @@ a:hover, #hamburger:hover{
 .overlay_button:hover {
 	color: pink;
 	cursor: pointer;
+	background-color: rgba(58, 101, 155, 0.2);
 }
 
 /* about */
