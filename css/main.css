@@ -1,14 +1,14 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #242426;
+	background-color: white;
 	width: 100%;
 	height: 100%;
 
 	font-family: 'Karla', sans-serif;
 	font-size: 1.03em;
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 body {
@@ -39,13 +39,19 @@ main {
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
+	transition: 0.3s;
+
 }
 
 a:hover, #hamburger:hover{
 	transition: 0.3s;
 	color: pink;
+}
+
+.whitetext {
+	color: white;
 }
 
 .nav_title {
@@ -99,6 +105,7 @@ a:hover, #hamburger:hover{
 .nav_projects {
 	position: relative;
 	display: inline-block;
+	transition: 0.3s;
 }
 
 #nav_projects_dropdown {
@@ -181,6 +188,7 @@ a:hover, #hamburger:hover{
 	color: white;
 	background-color: rgb(0,0,0);
 	background-color:rgba(18, 18, 18, 0.49);
+	
 	border: transparent;
 	border-radius: 8px;
 	transition: 0.3s;
@@ -225,7 +233,7 @@ a:hover, #hamburger:hover{
 	text-align: left;
 	margin-top: 15vh;
 	margin-bottom: 20vh;
-	border-bottom: solid 1px white;
+	border-bottom: solid 1px black;
 	flex-shrink: 0;
 }
 
