@@ -34,12 +34,6 @@ nav {
 	z-index: 1;
 }
 
-#indexnavbar {
-	padding: 8em 20em 0em;
-}
-
-
-
 main {
 	height: 100%;
 }
@@ -262,6 +256,14 @@ a:hover, #hamburger:hover{
 	flex-grow: 0;
 	height: 500px;
 }
+
+@media (min-width: 773px){
+	#indexnavbar {
+		padding: 8em 20em 0em;
+	}
+	
+}
+
 
 @media(max-width: 1007px) {
 	nav {
