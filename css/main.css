@@ -29,10 +29,16 @@ nav {
 
 	box-sizing: border-box;
 	background: transparent;
-	padding: 8em 20em 0em;
+	padding: 3em 20em 0em;
 	width: 100%;
 	z-index: 1;
 }
+
+#indexnavbar {
+	padding: 8em 20em 0em;
+}
+
+
 
 main {
 	height: 100%;
@@ -48,6 +54,10 @@ a {
 a:hover, #hamburger:hover{
 	transition: 0.3s;
 	color: pink;
+}
+
+#blackbackground {
+	background-color:black;
 }
 
 .whitetext {
@@ -215,21 +225,20 @@ a:hover, #hamburger:hover{
 	max-width: 400px;
 	max-height: 400px;
 	flex-grow: 0;
-	padding: 7em 0 4em;
+	padding: 1em 0 2em;
 }
 
 .description {
-	height: 100vh;
 	display: none;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-shrink: 0;
+	padding-top: 12em;
 }
 
 .experience {
 	display: none;
-	height: 65vh;
 	text-align: left;
 	margin-top: 15vh;
 	margin-bottom: 20vh;
