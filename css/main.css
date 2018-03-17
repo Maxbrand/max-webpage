@@ -160,16 +160,19 @@ a:hover, #indexhamburger:hover{
 }
 
 #indexnav_projects_dropdown {
-    height: 0;
+	height: 0;
     position: absolute;
     /*background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5);*/
     overflow: auto;
     opacity: 0;
-	z-index: 1;
+    z-index: 1;
     transition: opacity 0.1s ease;
-    padding: 0 0.5em;
-    /*border-radius: 5px;*/
+    padding: 0 1em;
+    margin-top:  0.2em;
+    margin-left: -1.2em;
+    border-radius: 5px;
+    background-color:  white;
 }
 
 #indexnav_projects_dropdown div:first-child {
@@ -367,7 +370,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	#indexnav_projects_dropdown {
-		background-color: rgb(0,0,0);
+		background-color: rgb(0, 0, 0);
 		background-color: rgb(255, 255, 255);
 	}
 
