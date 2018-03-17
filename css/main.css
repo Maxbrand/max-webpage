@@ -51,7 +51,12 @@ a:hover, #hamburger:hover{
 }
 
 #indexhamburger {
+	display: none;
+	font-size: 1.5em;
 	color: white;
+	border: none;
+	background: transparent;
+	outline: none;
 }
 
 a:hover, #indexhamburger:hover{
