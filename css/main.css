@@ -50,6 +50,17 @@ a:hover, #hamburger:hover{
 	color: pink;
 }
 
+#indexhamburger {
+	color: white;
+}
+
+a:hover, #indexhamburger:hover{
+	transition: 0.3s;
+	color: pink;
+}
+
+
+
 #blackbackground {
 	background-color:black;
 }
