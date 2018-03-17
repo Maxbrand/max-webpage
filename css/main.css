@@ -299,22 +299,22 @@ a:hover, #indexhamburger:hover{
 	height: 500px;
 }
 
-@media (min-width: 773px){
+@media (min-width: 1025px){
 	#indexnavbar {
 		padding: 8em 20em 0em;
 	}
 	
 }
 
-
+/*
 @media(max-width: 1007px) {
 	nav {
 		padding: 4em 3em 0em;
 	}
 }
 
-
-@media (max-width: 772px) {
+*/
+@media (max-width: 1024px) {
 	nav {
 		flex-direction: column;
 		padding-top: 1em;
@@ -349,9 +349,10 @@ a:hover, #indexhamburger:hover{
 
 	.video_overlay {
 		flex-direction: column;
+		margin-top: -5em;
 	}
 	.overlay_button {
-		margin: 3em;
+		margin-bottom: 3em;
 		font-size: 1.4em;
 	}
 
