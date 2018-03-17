@@ -309,6 +309,10 @@ a:hover, #indexhamburger:hover{
 		justify-content: center;
 	}
 
+	#indexhamburger {
+		display: inline-block;
+	}
+
 	#hamburger {
 		display: inline-block;
 	}
