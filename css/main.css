@@ -347,6 +347,14 @@ a:hover, #indexhamburger:hover{
 		flex-direction: column;
 	}
 
+	.video_overlay {
+		flex-direction: column;
+	}
+	.overlay_button {
+		margin: 3em;
+		font-size: 1.4em;
+	}
+
 	.nav_title {
 		width:100%;
 		margin-bottom: 0.5em;
