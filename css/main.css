@@ -6,7 +6,7 @@ html, body {
 	height: 100%;
 
 	font-family: 'Karla', sans-serif;
-	font-size: 1.03em;
+	font-size: 1em;
 	text-align: center;
 	color: black;
 }
@@ -367,7 +367,7 @@ video {
 	}
 
 	.nav_title h1 {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 
 	.nav_item, .social_icons {
@@ -418,4 +418,3 @@ video {
 		max-width: 100%;
 	}
 }
-
