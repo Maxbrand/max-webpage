@@ -120,12 +120,11 @@ a:hover, #indexhamburger:hover{
 }
 
 .nav_title > a > h1 {
-	padding: 0;
-	margin: 0;
+	margin-bottom: 0;
 }
 
 .nav_title {
-	padding: 0;
+	padding-top: 0.5em;
 	margin: 0;
 	display: flex;
 	flex-direction: row;
