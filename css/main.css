@@ -307,7 +307,7 @@ video {
 }
 
 .project_grid iframe {
-	width: 700px;
+	width: 900px;
 	display: block;
 	flex-grow: 0;
 	height: 500px;
