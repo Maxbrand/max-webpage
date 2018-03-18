@@ -159,11 +159,8 @@ a:hover, #indexhamburger:hover{
 	padding: 1em 0;
 }
 
-#nav_projects_dropdown div {
-/*	border-left: solid 1px white;
-*/}
 
-.nav_projects:hover #nav_projects_dropdown, .nav_projects:hover a {
+.nav_projects:hover, nav_projects:active #nav_projects_dropdown, .nav_projects:hover, nav_projects:active a {
     opacity: 1;
     height: auto;
     transition: opacity 0.1s ease;
@@ -190,13 +187,13 @@ a:hover, #indexhamburger:hover{
 	padding: 1em 0;
 }
 
-.nav_projects:hover #indexnav_projects_dropdown, .nav_projects:hover a {
+.nav_projects:hover, nav_projects:active #indexnav_projects_dropdown, .nav_projects:hover, nav_projects:active a {
     opacity: 1;
     height: auto;
     transition: opacity 0.1s ease;
 }
 
-.nav_projects:hover {
+.nav_projects:hover, nav_projects:active {
 	color: pink;
 	cursor: default;
 	transition: 0.3s;
