@@ -210,12 +210,19 @@ a:hover, #indexhamburger:hover{
 
 .background_video {
     padding: 0px;
-    min-height: 100%;
+    min-height: 100vh;
     z-index: -100;
     display: flex;
     align-items: center;
     justify-content: center;
    	overflow: hidden;
+}
+
+#video_reel_phone {
+	display: hidden;
+}
+video {
+	min-height: 100vh;
 }
 
 .video_overlay {
@@ -382,6 +389,16 @@ a:hover, #indexhamburger:hover{
 
 	.experience {
 		border-bottom: transparent;
+	}
+}
+
+@media (max-width: 600px) {
+	#video_reel {
+		display: none;
+	}
+	
+	#video_reel_phone {
+    min-width: 100vh;
 	}
 }
 
