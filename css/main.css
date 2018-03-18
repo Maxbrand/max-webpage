@@ -394,7 +394,7 @@ video {
 		letter-spacing: 0.3em;
 	}
 
-	.nav_item {
+	.nav_item, .social_icons {
 		padding: 0.6em 0;
 	}
 
