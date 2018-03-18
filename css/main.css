@@ -72,6 +72,7 @@ a:hover, #indexhamburger:hover{
 
 .whitetext {
 	color: white;
+	line-height: 30%;
 }
 
 .nav_title {
@@ -82,6 +83,7 @@ a:hover, #indexhamburger:hover{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1.4em;
+	line-height: 80%;
 }
 
 #navbar_content {
@@ -368,6 +370,12 @@ video {
 
 	.nav_title h1 {
 		font-size: 1.7em;
+	}
+
+	.nav_title h2 {
+		font-size: 1em;
+		font-weight: 100;
+		letter-spacing: 0.3em;
 	}
 
 	.nav_item, .social_icons {
