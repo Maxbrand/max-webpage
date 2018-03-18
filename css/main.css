@@ -39,7 +39,7 @@ main {
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	transition: 0.3s;
 
@@ -73,7 +73,7 @@ a:hover, #indexhamburger:hover{
 	line-height: 30%;
 }
 
-whitetextdropdown {
+.whitetextdropdown {
 	color: white;
 }
 
@@ -356,7 +356,7 @@ video {
 		display: inline-block;
 	}
 
-	whitetextdropdown {
+	.whitetextdropdown {
 		color: black;
 	}
 
