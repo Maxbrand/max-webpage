@@ -361,7 +361,7 @@ video {
 	}
 
 	.nav_title {
-		width:100%;
+		width:100vw;
 		margin-bottom: 0.5em;
 		font-size: 1em;
 	}
