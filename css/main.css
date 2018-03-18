@@ -422,11 +422,11 @@ video {
 	}
 	
 	#video_reel_phone {
+		display: block;
 		position: fixed;
 		bottom: 1;
 		min-height: 100%;
 		max-height: 140%
-		
 		}
 }
 
