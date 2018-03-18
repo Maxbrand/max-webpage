@@ -389,9 +389,6 @@ video {
 	}
 }
 
-<<<<<<< HEAD
-@media (max-width: 680px) {
-=======
 @media (max-width: 600px) {
 	.background_video {
 		max-width: 100vw;
@@ -413,7 +410,6 @@ video {
 }
 
 @media (max-width: 449px) {
->>>>>>> 7afb49e647b0c338b353c30f50e7cdb333ae6f2d
 	nav {
 		padding: 1em 1em 0em;
 	}
