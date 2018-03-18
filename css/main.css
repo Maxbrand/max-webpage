@@ -398,7 +398,7 @@ video {
 	}
 	
 	#video_reel_phone {
-    min-width: 100vh;
+    max-height: 100vh;
 	}
 }
 
