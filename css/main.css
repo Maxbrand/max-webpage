@@ -437,6 +437,15 @@ video {
 		}
 }
 
+.project_grid {
+	padding-top: 2em;
+}
+
+.project_grid iframe {
+	width: 100vw;
+	max-height: 300px;
+}
+
 @media (max-width: 449px) {
 	.about img {
 		max-width: 100%;
