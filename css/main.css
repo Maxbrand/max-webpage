@@ -73,6 +73,10 @@ a:hover, #indexhamburger:hover{
 	line-height: 30%;
 }
 
+whitetextdropdown {
+	color: white;
+}
+
 .nav_title {
 	display: flex;
 	flex-direction: row;
@@ -337,7 +341,7 @@ video {
 		background-color: rgb(255, 255, 255);
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
-		width: 100%;
+		width: 90vw;
 	}
 
 	.social_icons {
@@ -350,6 +354,10 @@ video {
 
 	#hamburger {
 		display: inline-block;
+	}
+
+	whitetextdropdown {
+		color: black;
 	}
 
 	.directory {
