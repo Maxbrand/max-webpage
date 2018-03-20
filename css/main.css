@@ -161,10 +161,6 @@ a:hover, #indexhamburger:hover{
 	padding: 1em 0;
 }
 
-#nav_projects_dropdown div {
-/*	border-left: solid 1px white;
-*/}
-
 .nav_projects:hover #nav_projects_dropdown, .nav_projects:hover a {
     opacity: 1;
     height: auto;
