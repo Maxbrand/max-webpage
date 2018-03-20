@@ -289,7 +289,7 @@ video {
 .experience {
 	display: none;
 	text-align: left;
-	margin-top: 15vh;
+	margin-top: 10vh;
 	margin-bottom: 20vh;
 	border-bottom: solid 1px black;
 	flex-shrink: 0;
