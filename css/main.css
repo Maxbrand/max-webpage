@@ -410,11 +410,13 @@ video {
 	.experience {
 		border-bottom: transparent;
 	}
-}
-
+	
 	.description {
 		padding-top: 4em;
 	}
+}
+
+	
 
 @media (max-width: 600px) {
 	nav {
