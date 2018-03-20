@@ -414,15 +414,22 @@ video {
 	}
 }
 
-	
+@media (max-width: 800px) {
+	.fancybox-slide--iframe .fancybox-content {
+		width  : 50%;
+	}
+}
 
 @media (max-width: 600px) {
 	.background_video {
 		max-width: 120vw;
 		max-height: 100vh;
 	}
-	
-	
+
+	.fancybox-slide--iframe .fancybox-content {
+		width  : 30%;
+	}
+		
 	#video_reel {
 		display: none;
 	}
