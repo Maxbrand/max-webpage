@@ -330,6 +330,7 @@ video {
 	nav {
 		flex-direction: column;
 		padding-top: 1em;
+		padding: 0em 0em 0em;
 	}
 
 	#navbar_content {
@@ -419,10 +420,6 @@ video {
 	
 
 @media (max-width: 600px) {
-	nav {
-		padding: 0em 0em 0em;
-	}
-	
 	.background_video {
 		max-width: 120vw;
 		max-height: 100vh;
