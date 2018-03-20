@@ -123,6 +123,7 @@ a:hover, #indexhamburger:hover{
 .nav_title > a > h1 {
 	margin-bottom: 0;
 	margin-left: -0.01em;
+	font-size: 1.5em;
 }
 
 .nav_title {
@@ -462,4 +463,8 @@ video {
 	.about img {
 		max-width: 100%;
 	}
+}
+
+@media (max-width: 400) {
+
 }
