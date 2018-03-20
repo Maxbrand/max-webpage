@@ -150,7 +150,7 @@ a:hover, #indexhamburger:hover{
     transition: opacity 0.1s ease;
     padding: 0 0.5em;
 	/*border-radius: 5px;*/
-	margin-left: -0.4em;
+	margin-left: -0.8em;
 }
 
 #nav_projects_dropdown div:first-child {
