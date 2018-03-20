@@ -149,7 +149,8 @@ a:hover, #indexhamburger:hover{
 	z-index: 1;
     transition: opacity 0.1s ease;
     padding: 0 0.5em;
-    /*border-radius: 5px;*/
+	/*border-radius: 5px;*/
+	margin-left: -0.4em;
 }
 
 #nav_projects_dropdown div:first-child {
@@ -303,7 +304,7 @@ video {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around; 
-	padding-top: 10em;
+	padding-top: 12em;
 	height: 100vh;
 }
 
