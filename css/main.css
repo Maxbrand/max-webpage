@@ -83,7 +83,7 @@ a:hover, #indexhamburger:hover{
 	justify-content: space-around;
 	flex-grow: 0.05;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 80%;
 	text-align: left;
@@ -124,6 +124,7 @@ a:hover, #indexhamburger:hover{
 	margin-bottom: 0;
 	margin-left: -0.05em;
 	font-size: 1.5em;
+	font-weight: 600;
 }
 
 .nav_title {
