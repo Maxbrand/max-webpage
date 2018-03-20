@@ -286,6 +286,11 @@ video {
 	padding-top: 12em;
 }
 
+.introduction {
+	width: 90vw;
+	display: inline-block
+}
+
 .experience {
 	display: none;
 	text-align: left;
@@ -399,7 +404,7 @@ video {
 	#nav_projects_dropdown {
 		background-color: rgb(0,0,0);
 		background-color: rgb(255, 255, 255);
-		margin-left: 0.4em;
+		margin-left: -0.4em;
 	}
 
 	#indexnav_projects_dropdown {
