@@ -429,7 +429,7 @@ video {
 }
 
 .fancybox-slide--iframe .fancybox-content{
-	width  : 50%;
+	width  : 50% !important;
 	}
 
 
@@ -440,7 +440,7 @@ video {
 	}
 
 	.fancybox-slide--video .fancybox-content {
-		width  : 30%;
+		width  : 30% !important;
 	}
 
 	.fancybox-slide--iframe .fancybox-content{
