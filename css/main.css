@@ -423,7 +423,7 @@ video {
 }
 
 @media (max-width: 800px) {
-	.fancybox-slide--iframe .fancybox-content {
+	.fancybox-slide--video .fancybox-content {
 		width  : 50%;
 	}
 }
@@ -434,7 +434,7 @@ video {
 		max-height: 100vh;
 	}
 
-	.fancybox-slide--iframe .fancybox-content {
+	.fancybox-slide--video .fancybox-content {
 		width  : 30%;
 	}
 		
