@@ -428,6 +428,11 @@ video {
 	}
 }
 
+.fancybox-slide--iframe .fancybox-content{
+	width  : 50%;
+	}
+
+
 @media (max-width: 600px) {
 	.background_video {
 		max-width: 120vw;
@@ -437,7 +442,10 @@ video {
 	.fancybox-slide--video .fancybox-content {
 		width  : 30%;
 	}
-		
+
+	.fancybox-slide--iframe .fancybox-content{
+		width  : 30%;
+	}	
 	#video_reel {
 		display: none;
 	}
