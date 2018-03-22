@@ -5,12 +5,6 @@ $(window).on("load", function() {
 
 	buttons.hide().fadeIn(600)
 
-	$(window).resize(function() {
-		if($(window).width() >= 772) {
-			navbar.show()
-		} else {
-			navbar.hide()
-		}
-	})
+
 })
 

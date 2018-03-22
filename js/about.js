@@ -12,11 +12,5 @@ $(window).on("load", function() {
 		experience.show()
 	})
 
-	$(window).resize(function() {
-		if($(window).width() >= 772) {
-			navbar.show()
-		} else {
-			navbar.hide()
-		}
-	})
+	
 })
