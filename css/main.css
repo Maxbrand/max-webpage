@@ -424,12 +424,12 @@ video {
 
 @media (max-width: 800px) {
 	.fancybox-slide--video .fancybox-content {
-		width  : 50%;
+		height  : 50%;
 	}
 }
 
 .fancybox-slide--iframe .fancybox-content{
-	width  : 50% !important;
+	height  : 50% !important;
 	}
 
 
@@ -440,11 +440,11 @@ video {
 	}
 
 	.fancybox-slide--video .fancybox-content {
-		width  : 30% !important;
+		height  : 30% !important;
 	}
 
 	.fancybox-slide--iframe .fancybox-content{
-		width  : 30%;
+		height  : 30%;
 	}	
 	#video_reel {
 		display: none;
