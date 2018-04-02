@@ -478,7 +478,3 @@ video {
 		max-width: 100%;
 	}
 }
-
-@media (max-width: 400) {
-	.test {}
-}
