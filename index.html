@@ -89,6 +89,10 @@
 		$(document).ready(function() {
 			let navbar = document.getElementById("navbar_content")
 
+			let buttons = $(".video_overlay")
+
+			buttons.hide().fadeIn(600)
+
 			document.getElementById("indexhamburger").onclick = function(){
 				let navbar_style = getComputedStyle(navbar, null).display;
 				if (navbar_style == "none")
