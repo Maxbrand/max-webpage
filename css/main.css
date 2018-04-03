@@ -234,8 +234,9 @@ a:hover, #indexhamburger:hover{
 	position: fixed;
 	top: 0;
 	left: 0;
+	width:100%;
 	min-height: 100%;
-	max-height: 122%;
+	max-height: 140%;
 	}
 
 #desktop_bg_video {
