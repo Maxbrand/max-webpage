@@ -341,7 +341,7 @@ video {
 		padding: 3em 10em 0em;
 	}
 	.description {
-		max-width: 40vw;
+		width: 40vw;
 	}
 	.introduction {
 		width: 35vw;
