@@ -454,7 +454,7 @@ video {
 	}
 
 	.introduction {
-		width: 65vw;
+		width: 50vw;
 	}
 }
 
@@ -490,8 +490,10 @@ video {
 		width: 100vw;
 	}
 
+	.introduction {
+		width: 70vw;
+	}
 	
-
 	.project_grid iframe {
 		width: 100vw;
 		max-height: 280px;
