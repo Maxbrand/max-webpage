@@ -297,6 +297,7 @@ video {
 	align-items: center;
 	flex-shrink: 0;
 	padding-top: 12em;
+	max-width: 35vw;
 }
 
 .introduction {
