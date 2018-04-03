@@ -426,11 +426,12 @@ video {
 	.fancybox-slide--video .fancybox-content {
 		height  : 50%;
 	}
+	.fancybox-slide--iframe .fancybox-content{
+		height  : 50% !important;
+	}
 }
 
-.fancybox-slide--iframe .fancybox-content{
-	height  : 50% !important;
-	}
+
 
 
 @media (max-width: 600px) {
