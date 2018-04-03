@@ -58,14 +58,18 @@
 		</nav>
 		<main>
 			<div class="background_video">
-				<video id="video_reel" autoplay loop muted playsinline poster="media/BGposter.jpg">
-					<source src="media/1.9.webm" type="video/webm">
-					<source src="media/1.9.mp4" type="video/mp4">
-				</video>
-				<video id="video_reel_phone" autoplay loop muted playsinline>
-					<source src="media/1.2.webm" type="video/webm">
-					<source src="media/1.2.mp4" type="video/mp4">
-				</video>
+				<div id="desktop_bg_video">
+					<video id="video_reel" autoplay loop muted playsinline poster="media/BGposter.jpg">
+						<source src="media/1.9.webm" type="video/webm">
+						<source src="media/1.9.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div id="mobile_bg_video">
+					<video id="video_reel_phone" autoplay loop muted playsinline>
+						<source src="media/1.2.webm" type="video/webm">
+						<source src="media/1.2.mp4" type="video/mp4">
+					</video>
+				</div>
 				<div class="video_overlay">
 					<button class="overlay_button" data-fancybox href="https://vimeo.com/260915213">Narrative reel</button>
 					<button class="overlay_button" data-fancybox href="https://vimeo.com/260724582">Corporate reel</button>
@@ -84,7 +88,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 
 	<!-- local -->
-	<script src="js/home.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			let navbar = document.getElementById("navbar_content")
