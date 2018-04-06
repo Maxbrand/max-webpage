@@ -507,10 +507,6 @@ video {
 	main {
 		padding-top: 3em;
 	}
-	
-	.video_overlay {
-		position: fixed;
-	}
 }
 
 
