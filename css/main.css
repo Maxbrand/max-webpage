@@ -248,7 +248,6 @@ video {
 }
 
 .video_overlay {
-	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -388,7 +387,6 @@ video {
 
 	.video_overlay {
 		flex-direction: column;
-		-webkit-flex-direction: column;
 	}
 	.overlay_button {
 		font-family: 'Karla', sans-serif;
