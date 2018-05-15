@@ -332,6 +332,12 @@ video {
 	height: 500px;
 }
 
+@media (min-width: 2700px){
+	.description {
+		width: 30vw;
+	}
+}
+
 @media (min-width: 1025px){
 	#indexnavbar {
 		padding: 8em 20em 0em;
