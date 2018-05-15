@@ -336,7 +336,11 @@ video {
 	.description {
 		width: 30vw;
 	}
+	.project_grid iframe {
+		width: 1000px;
+	}
 }
+
 
 @media (min-width: 1025px){
 	#indexnavbar {
