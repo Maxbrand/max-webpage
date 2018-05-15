@@ -178,8 +178,8 @@ a:hover, #indexhamburger:hover{
     z-index: 1;
     transition: opacity 0.1s ease;
     padding: 0 1em;
-    margin-left: -1.2em;
-    border-radius: 5px;
+    margin-left: -1em;
+    border-radius: 15px;
     background-color:  white;
 }
 
