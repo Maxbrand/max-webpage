@@ -154,6 +154,8 @@ a:hover, #indexhamburger:hover{
     padding: 0 0.5em;
 	/*border-radius: 5px;*/
 	margin-left: -0.8em;
+	border-radius: 15px;
+    background-color:  white;
 }
 
 #nav_projects_dropdown div:first-child {
