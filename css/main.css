@@ -119,6 +119,7 @@ a:hover, #indexhamburger:hover{
 
 .nav_item {
 	padding: 0 1.66em;
+	font-size: 1.2em;
 }
 
 .nav_title > a > h1 {
@@ -140,6 +141,7 @@ a:hover, #indexhamburger:hover{
 	position: relative;
 	display: inline-block;
 	transition: 0.3s;
+	font-size: 1.2em;
 }
 
 #nav_projects_dropdown {
