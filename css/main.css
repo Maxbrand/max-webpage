@@ -262,22 +262,25 @@ video {
 }
 
 .overlay_button {
-	font-family: 'Karla', sans-serif;
-	font-size: 1.2em;
-	font-weight: 800;
+	font-family: 'Montserrat';
+	font-size: 1.4em;
+	font-weight: 600;
 	color: #ffffff;
-	background-color: #2393ca;
-	border-radius: 5px;
+	background-color: #ffffff00;
+	border-radius: 100px;
 	transition: 0.3s;
-	padding: 0.7em;
+	padding: 1.4em;
 	margin: 2em;
-	border-width: 0px;
+	border-width: 2.5px;
+	border-style: solid;
 }
 
+
+
 .overlay_button:hover {
-	color: pink;
+	color: white;
 	cursor: pointer;
-	background-color:#1eb8ffbd;
+	background-color:#a5a5a58c;
 }
 
 /* about */
@@ -404,16 +407,7 @@ video {
 		flex-direction: column;
 	}
 	.overlay_button {
-		font-family: 'Karla', sans-serif;
-		font-size: 1.0em;
-		font-weight: 800;
-		color: #ffffff;
-		background-color: #2393ca;
-		border-radius: 50px;
-		transition: 0.3s;
-		outline: none;
-		padding: 0.9em;
-		border-width: 0px;
+		font-size: 1.3em;
 	}
 
 	.nav_title {
