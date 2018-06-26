@@ -265,7 +265,7 @@ video {
 
 .overlay_button {
 	font-family: 'Montserrat';
-	font-size: 1.4em;
+	font-size: 1.15em;
 	font-weight: 600;
 	color: #ffffff;
 	background-color: #ffffff00;
@@ -385,12 +385,6 @@ video {
 		width: 90vw;
 	}
 
-	.nav_projects {
-		font-size: 1em;
-	}
-	.nav_item {
-		font-size: 1em;
-	}
 	.social_icons {
 		justify-content: center;
 	}
