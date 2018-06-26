@@ -265,13 +265,13 @@ video {
 
 .overlay_button {
 	font-family: 'Montserrat';
-	font-size: 1.15em;
+	font-size: 1em;
 	font-weight: 600;
 	color: #ffffff;
 	background-color: #ffffff00;
 	border-radius: 100px;
 	transition: 0.3s;
-	padding: 1.3em;
+	padding: 1.4em;
 	margin: 2em;
 	border-width: 2.5px;
 	border-style: solid;
