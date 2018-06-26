@@ -271,7 +271,7 @@ video {
 	background-color: #ffffff00;
 	border-radius: 100px;
 	transition: 0.3s;
-	padding: 1.4em;
+	padding: 1.3em;
 	margin: 2em;
 	border-width: 2.5px;
 	border-style: solid;
@@ -409,7 +409,7 @@ video {
 		flex-direction: column;
 	}
 	.overlay_button {
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 
 	.nav_title {
