@@ -385,6 +385,12 @@ video {
 		width: 90vw;
 	}
 
+	.nav_projects {
+		font-size: 1em;
+	}
+	.nav_item {
+		font-size: 1em;
+	}
 	.social_icons {
 		justify-content: center;
 	}
