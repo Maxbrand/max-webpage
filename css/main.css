@@ -267,13 +267,13 @@ video {
 	font-family: 'Montserrat';
 	font-size: 1em;
 	font-weight: 600;
-	color: #ffffff;
-	background-color: #ffffff00;
+	color: #434141;
+	background-color: #ffffff;
 	border-radius: 100px;
 	transition: 0.3s;
 	padding: 1.4em;
 	margin: 2em;
-	border-width: 2.5px;
+	border-width: 0px;
 	border-style: solid;
 }
 
@@ -282,7 +282,8 @@ video {
 .overlay_button:hover {
 	color: white;
 	cursor: pointer;
-	background-color:#a5a5a58c;
+	background-color:#6b6b6bb4;
+	border-width: 1.5px;
 }
 
 /* about */
