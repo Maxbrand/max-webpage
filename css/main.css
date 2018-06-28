@@ -245,6 +245,7 @@ a:hover, #indexhamburger:hover{
 	min-width:100%;
 	min-height: 100%;
 	max-height: 115%;
+	background-color: black;
 	}
 
 #desktop_bg_video {
