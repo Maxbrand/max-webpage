@@ -277,6 +277,7 @@ video {
 	margin: 2em;
 	border-width: 0px;
 	border-style: solid;
+	outline: none;
 }
 
 
