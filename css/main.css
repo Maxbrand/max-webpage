@@ -271,7 +271,8 @@ video {
 	font-weight: 600;
 	color: #434141;
 	background-color: #ffffff;
-	border-radius: 100px;
+	width: 17em;
+	border-radius: 10px;
 	transition: 0.3s;
 	padding: 1.4em;
 	margin: 2em;
