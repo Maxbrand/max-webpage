@@ -352,6 +352,7 @@ video {
 	}
 	.project_grid iframe {
 		width: 1100px;
+		height: 700px;
 	}
 }
 
