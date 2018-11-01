@@ -284,10 +284,9 @@ video {
 
 
 .overlay_button:hover {
-	color: white;
+	color: #000000;
 	cursor: pointer;
-	background-color:#6b6b6bb4;
-	border-width: 1.5px;
+	background-color:#ffffffcc;
 }
 
 /* about */
