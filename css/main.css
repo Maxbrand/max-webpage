@@ -362,6 +362,10 @@ video {
 	}
 }
 
+.reeldropdown {
+	Display: none;
+}
+
 @media (max-width: 1320px) {
 	nav {
 		padding: 3em 10em 0em;
@@ -414,8 +418,13 @@ video {
 		flex-direction: column;
 	}
 	.overlay_button {
+		display: none;
 		font-size: 1.1em;
 		padding: 1.2em;
+	}
+	
+	.reeldropdown {
+		Display: inline-block;
 	}
 
 	.nav_title {
