@@ -2,35 +2,24 @@ html, body {
 	margin: 0;
 	padding: 0;
 	background-color: white;
-	width: 100%;
-	height: 100%;
-
 	font-family: 'Karla', sans-serif;
 	font-size: 1em;
 	text-align: center;
 	color: black;
 }
 
-body {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-}
 
 nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	
 
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15vh;
 
 	box-sizing: border-box;
 	background: transparent;
-	padding: 3em 20em 0em;
-	width: 100%;
+	max-width: 50vw;
 	z-index: 1;
 }
 
@@ -42,7 +31,7 @@ a {
 	color: black;
 	text-decoration: none;
 	transition: 0.3s;
-
+	align-self: center;
 }
 
 a:hover, #hamburger:hover{
@@ -69,24 +58,15 @@ a:hover, #indexhamburger:hover{
 	overflow: hidden;
 }
 
-.whitetext {
-	color: white;
-	line-height: 20%;
-}
 
-.whitetextdropdown {
-	color: white;
-}
 
 .nav_title {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	flex-grow: 0.05;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1.4em;
-	line-height: 80%;
 	text-align: left;
 }
 
@@ -94,6 +74,11 @@ a:hover, #indexhamburger:hover{
 	font-size: 1.02em;
 	font-weight: 300;
 	letter-spacing: 0.22em;
+}
+
+.nav_title h3 {
+	font-size: 0.6em;
+	font-weight: 600;
 }
 
 #navbar_content {
@@ -105,9 +90,11 @@ a:hover, #indexhamburger:hover{
 
 .directory {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: column;
 	align-self: center;
+	max-width: 150px;
+	line-height: 1%;
+	text-align: right;
 }
 
 .social_icons {
@@ -118,8 +105,7 @@ a:hover, #indexhamburger:hover{
 }
 
 .nav_item {
-	padding: 0 1.66em;
-	font-size: 1.1em;
+	
 }
 
 .nav_title > a > h1 {
@@ -141,75 +127,8 @@ a:hover, #indexhamburger:hover{
 	position: relative;
 	display: inline-block;
 	transition: 0.3s;
-	font-size: 1.1em;
 }
 
-#nav_projects_dropdown {
-    height: 0;
-    position: absolute;
-    overflow: auto;
-    opacity: 0;
-	z-index: 1;
-    transition: opacity 0.1s ease;
-	margin-top: 0.1em;
-	margin-left: -1.2em;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-bottom-left-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
-    background-color:  white;
-}
-
-#nav_projects_dropdown div:first-child {
-	padding-top: 1em;
-}
-
-#nav_projects_dropdown div:last-child {
-	padding: 1em 0;
-}
-
-.nav_projects:hover #nav_projects_dropdown, .nav_projects:hover a {
-    opacity: 1;
-    height: auto;
-    transition: opacity 0.1s ease;
-}
-
-#indexnav_projects_dropdown {
-	height: 0;
-    position: absolute;
-    overflow: auto;
-    opacity: 0;
-	z-index: 1;
-    transition: opacity 0.1s ease;
-	margin-top: 0.1em;
-	margin-left: -1.2em;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-bottom-left-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
-    background-color:  white;
-}
-
-#indexnav_projects_dropdown div:first-child {
-	padding-top: 1em;
-}
-
-#indexnav_projects_dropdown div:last-child {
-	padding: 1em 0;
-}
-
-.nav_projects:hover #indexnav_projects_dropdown, .nav_projects:hover a {
-    opacity: 1;
-    height: auto;
-    transition: opacity 0.1s ease;
-}
-
-.nav_projects:hover {
-	color: pink;
-	cursor: default;
-	transition: 0.3s;
-	text-decoration: underline;
-}
 
 .nav_icon {
 	padding: 0 0.8em;
@@ -227,13 +146,13 @@ a:hover, #indexhamburger:hover{
 /* home */
 
 .background_video {
-    padding: 0px;
-    min-height: 100vh;
-    z-index: -100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   	overflow: hidden;
+    padding-top: 20px;
+	max-width: 50vw;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 #video_reel_phone {
@@ -248,13 +167,14 @@ a:hover, #indexhamburger:hover{
 	background-color: black;
 	}
 
+#video_reel {
+	max-width: 100%
+}
+
 #desktop_bg_video {
 	display: none;
 }
 
-video {
-	min-height: 100vh;
-}
 
 .video_overlay {
 	display: flex;
@@ -362,9 +282,6 @@ video {
 	}
 }
 
-.nav_reel {
-	Display: none;
-}
 
 @media (max-width: 1320px) {
 	nav {
@@ -446,21 +363,6 @@ video {
 		padding: 0.6em 0;
 	}
 
-	#nav_projects_dropdown {
-		background-color: rgb(0,0,0);
-		background-color: rgb(255, 255, 255);
-		padding-right: 20px;
-		padding-left: 20px;
-		margin-top: -0.1em;
-	}
-
-	#indexnav_projects_dropdown {
-		background-color: rgb(0, 0, 0);
-		background-color: rgb(255, 255, 255);
-		padding-right: 20px;
-		padding-left: 20px;
-		margin-top: -0.1em;
-	}
 
 	.experience {
 		border-bottom: transparent;
@@ -494,6 +396,7 @@ video {
 @media (min-width: 601px) {
 	#desktop_bg_video {
 		display: block;
+		max-width: 100%;
 	}
 	#mobile_bg_video {
 		display: none;

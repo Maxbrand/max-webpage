@@ -34,33 +34,23 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	</head>
 
-	<body class="body" id="blackbackground">
-		<nav class="navbar" id="indexnavbar">
+	<body class="body">
+		<nav class="navbar">
 			<div class="nav_title" id="fade_in_title">
 				<a href="#" class="whitetext"><h1>Max Brandhorst</h1><br>
 				<h2>Cinematographer</h2></a>
 				<button id="indexhamburger"><i class="fas fa-bars"></i></button>
-			</div>
-			<div id="navbar_content">
 				<div class="directory">
-					<div class="nav_reel nav_item"><a data-fancybox href="https://vimeo.com/276883004">reel</a></a></div>
-						<div class="nav_projects nav_item" onclick="">
-								<span class="whitetextdropdown">projects</span>
-							<div id="indexnav_projects_dropdown">
-								<div><a href="./projects-narrative">narrative</a></div>
-								<div><a href="./projects-corporate">corporate</a></div>
-							</div>
-						</div>
-						<div class="nav_about nav_item" class="whitetextdropdown"><a href="./about" class="whitetextdropdown">about me</a></div>
-						<div class="nav_about nav_item" class="whitetextdropdown"><a href="https://blog.mbrandhorst.com/" class="whitetextdropdown">blog</a></div>
-					</div>
-					<div class="social_icons">
-						<div class="nav_icon"><a href="https://instagram.com/maxbrandop" class="whitetextdropdown"><i class="fab fa-instagram"></i></a></div>
-						<div class="nav_icon"><a href="mailto:max.brandhorst@gmail.com" class="whitetextdropdown"><i class="far fa-envelope"></i></a></div>
-						<div class="nav_icon"><a href="tel:+46706081728" class="whitetextdropdown"><i class="fas fa-phone"></i></a></div>
+					<div class="nav_reel nav_item"><a data-fancybox href="https://vimeo.com/276883004"> <h3>reel</h3></a></a></div>
+					<div class="nav_projects nav_item" class="whitetextdropdown"><a href="./projects-narrative" class="whitetextdropdown"><h3>projects</h3></a></div>
+						
+							<div class="nav_about nav_item" class="whitetextdropdown"><a href="./about" class="whitetextdropdown"><h3>about</h3></a></div>
+							<div class="nav_about nav_item" class="whitetextdropdown"><a href="https://blog.mbrandhorst.com/" class="whitetextdropdown"><h3>blog</h3></a></div>
 					</div>
 			</div>
 		</nav>
+
+		
 		<main>
 			<div class="background_video">
 				<div id="desktop_bg_video">
@@ -75,11 +65,23 @@
 						<source src="media/Mobileh264.mp4" type="video/mp4" media="all and (max-width:600px)">
 					</video>
 				</div>
-				<div class="video_overlay">
+				<!--<div class="video_overlay">
 					<button class="overlay_button" data-fancybox href="https://vimeo.com/276883004">Cinematography reel</button>
-				</div>
+				</div>-->
 			</div>
 		</main>
+
+		<footer>
+			<div id="navbar_content">
+				
+				<div class="social_icons">
+					<div class="nav_icon"><a href="https://instagram.com/maxbrandop" class="whitetextdropdown"><i class="fab fa-instagram"></i></a></div>
+					<div class="nav_icon"><a href="mailto:max.brandhorst@gmail.com" class="whitetextdropdown"><i class="far fa-envelope"></i></a></div>
+					<div class="nav_icon"><a href="tel:+46706081728" class="whitetextdropdown"><i class="fas fa-phone"></i></a></div>
+				</div>
+			</div>
+		</footer>
+		
 	</body>
 
 	<!-- jQuery -->
